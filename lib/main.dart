@@ -33,9 +33,11 @@ class App extends StatelessWidget {
       home: StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),
         builder: (ctx, snapshot) {
+          // Showing SplashScreen for waiting (loading) time
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const SplashScreen();
           }
+
           // User has logged in already
           if (snapshot.hasData) {
             return const ChatScreen();

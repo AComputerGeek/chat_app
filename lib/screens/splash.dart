@@ -7,8 +7,8 @@ class SplashScreen extends StatelessWidget {
   Widget build(context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Chat'),
-        backgroundColor: Colors.grey,
+        title: const Text('Messages'),
+        backgroundColor: const Color.fromRGBO(168, 255, 255, 1),
       ),
       body: const Center(
         child: Text(
