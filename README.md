@@ -2,6 +2,16 @@
 
 A new Flutter project.
 
+## Demo:
+
+
+
+https://github.com/AComputerGeek/chat_app/assets/107828537/088c9973-71d9-4685-bc10-e0491ea9e7b2
+
+
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
