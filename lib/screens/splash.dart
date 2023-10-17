@@ -1,3 +1,6 @@
+// @author: Amir Armion
+// @version: V.01
+
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget {
